@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:ProjectEntityLinkingXamarinApp"
+             x:Class="ProjectEntityLinkingXamarinApp.MainPage">
+    <StackLayout>
+    <Editor x:Name="txtvalue" WidthRequest="200" HeightRequest="200"  BackgroundColor="Red"  Text="Project Entity Linking - Preview Sun"  />
+    <Label x:Name="outputBlock"  Text="Result will be here" Margin="10" />
+    <Button x:Name="button"  Text="Get Result" Clicked="OnButtonClickedAsync"/>
+    </StackLayout>
+
+</ContentPage>
