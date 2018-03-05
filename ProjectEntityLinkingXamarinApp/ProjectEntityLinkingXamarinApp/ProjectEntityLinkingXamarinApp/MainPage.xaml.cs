@@ -22,7 +22,7 @@ namespace ProjectEntityLinkingXamarinApp
         private async void OnButtonClickedAsync(object sender, EventArgs e)
         {
             var text = txtvalue.Text;
-            EntityLinkingServiceClient client = new EntityLinkingServiceClient("e52917bb34d1426f80ac816dc818e8de");
+            EntityLinkingServiceClient client = new EntityLinkingServiceClient("e52917bb34d1426f80ac816dc818e8de","https://api.labs.cognitive.microsoft.com");
 
 
             var linkResponse = await client.LinkAsync(text);
